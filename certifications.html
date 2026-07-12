@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Lucas Goulain</title>
+<meta name="description" content="Certifications obtenues en systèmes, réseaux et cybersécurité.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">LG</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html">Projets</a>
+      <a href="certifications.html">Certifications</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main class="page-main">
+  <div class="container">
+    <div class="page-header reveal">
+      <span class="eyebrow">🎓 Formations</span>
+      <h1>Mes <span class="highlight">certifications</span></h1>
+      <p>Certifications et formations complémentaires suivies en autonomie.</p>
+    </div>
+
+    <div class="certs-list">
+
+      <article class="note-card cert-card reveal">
+        <div class="cert-image">
+        </div>
+        <div class="cert-body">
+          <div class="cert-head">
+            <h3>Pre Security</h3>
+            <span class="cert-provenance">TryHackMe</span>
+          </div>
+          <p class="cert-desc">
+            Cette certificationm’a permis de renforcer les bases essentielles de la cybersécurité et de l’informatique : fonctionnement des réseaux, systèmes, web, adresses IP, DNS et principes fondamentaux de la sécurité informatique. 
+            Elle représente ma première étape concrète dans l’apprentissage de la cybersécurité à travers des exercices pratiques et des environnements virtuels.
+          </p>
+          <a class="cert-link" href="https://tryhackme.com/certificate/THM-WXEMPOMVSU" target="_blank" rel="noopener noreferrer" aria-label="Voir la certification officielle Pre Security">
+            <span class="cert-link-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M7 17L17 7"></path>
+                <path d="M7 7h10v10"></path>
+              </svg>
+            </span>
+            <span>Voir la certification officielle</span>
+          </a>
+          <div class="cert-tags">
+            <span class="cert-tag">+19h de cours</span>
+            <span class="cert-tag">Linux/Windows</span>
+            <span class="cert-tag">Networking</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Goulain Lucas. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

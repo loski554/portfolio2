@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Lucas Goulain</title>
+<meta name="description" content="Projets réalisés en formation et en stage.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">LG</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html">Projets</a>
+      <a href="certifications.html">Certifications</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main class="page-main">
+  <div class="container">
+    <div class="page-header reveal">
+      <span class="eyebrow">📁 Réalisations</span>
+      <h1>Mes <span class="highlight">projets</span></h1>
+      <p>Projets réalisés dans le cadre de mon BTS SIO.</p>
+    </div>
+
+    <div class="projects-list">
+      <article class="note-card project-card reveal">
+        <div class="project-body">
+          <div class="tags">
+            <span class="pill-label c-blue project-tag">Projet personnel</span>
+            <span class="pill-label c-teal project-tag">Réseau</span>
+          </div>
+          <h3>Infrastructure Réseau Redstone</h3>
+          <p class="project-desc">
+            Ce projet a consisté à concevoir une infrastructure réseau complète pour une entreprise fictive avec deux sites interconnectés, en appliquant des concepts essentiels tels que la segmentation par VLAN, le routage inter-VLAN, le routage dynamique OSPFv2, le DHCP centralisé, les ACL étendues et la sécurisation SSH. L’objectif était de construire une architecture robuste, documentée et conforme aux bonnes pratiques réseau.
+          </p>
+          <div class="tech-row">
+            <span class="tech-badge"><span class="icon">🔍</span> Cisco Packet Tracer</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/loski554/redstone-eng/blob/main/README.md" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.4c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.4 0C6.4 3 5.3 3.3 5.3 3.3a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 3.9 9.7c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.1-.5 2V21"/></svg>
+              Code source
+            </a>
+            <a href="#" rel="noopener" class="btn btn-ghost btn-sm">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>
+              Bientôt (PDF)
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Goulain Lucas. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Lucas Goulain</title>
+<meta name="description" content="Compétences techniques en développement, systèmes, réseaux et outils.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container">
+    <a href="index.html" class="nav-logo">
+      <span class="logo-mark">LG</span>
+    </a>
+    <div class="nav-links" id="navLinks">
+      <a href="index.html">Accueil</a>
+      <a href="competences.html">Compétences</a>
+      <a href="projets.html">Projets</a>
+      <a href="certifications.html">Certifications</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Ouvrir le menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main class="page-main">
+  <div class="container">
+    <div class="page-header reveal">
+      <span class="eyebrow">📎 Boîte à outils</span>
+      <h1>Compétences <span class="highlight">techniques</span></h1>
+      <p>Technologies maîtrisées et en cours d'apprentissage dans le cadre de mon BTS SIO.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="note-card skill-group dev reveal">
+        <div class="skill-group-head">
+          <div class="skill-group-icon">💻</div>
+          <div>
+            <h3>Langages &amp; développement</h3>
+            <p>// Scripts, automatisation et bases de données</p>
+          </div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><span class="icon">🐍</span> Python</span>
+          <span class="skill-pill"><span class="icon">⚙️</span> C++</span>
+          <span class="skill-pill"><span class="icon">🗄️</span> SQL</span>
+          <span class="skill-pill"><span class="icon">🌐</span> HTML / CSS</span>
+        </div>
+      </div>
+
+      <div class="note-card skill-group sysnet reveal">
+        <div class="skill-group-head">
+          <div class="skill-group-icon">⚙️</div>
+          <div>
+            <h3>Systèmes &amp; réseaux</h3>
+            <p>// Administration et infrastructure</p>
+          </div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><span class="icon">🐧</span> Linux</span>
+          <span class="skill-pill"><span class="icon">🪟</span> Windows</span>
+          <span class="skill-pill"><span class="icon">🍎</span> macOS</span>
+          <span class="skill-pill"><span class="icon">🔀</span> Cisco</span>
+          <span class="skill-pill"><span class="icon">🧩</span> VMware</span>
+          <span class="skill-pill"><span class="icon">🔑</span> Active Directory</span>
+        </div>
+      </div>
+
+      <!-- Groupe : Outils -->
+      <div class="note-card skill-group tools reveal">
+        <div class="skill-group-head">
+          <div class="skill-group-icon">🛠️</div>
+          <div>
+            <h3>Outils</h3>
+            <p>// Versioning, conteneurisation et autres</p>
+          </div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill"><span class="icon">🔧</span> Git</span>
+          <span class="skill-pill"><span class="icon">🐙</span> GitHub</span>
+          <span class="skill-pill"><span class="icon">🐳</span> Docker</span>
+          <span class="skill-pill"><span class="icon">🧠</span> IA (Claude, GPT)</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2026 Goulain Lucas. Tous droits réservés.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
